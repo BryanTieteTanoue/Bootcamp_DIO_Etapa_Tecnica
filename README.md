@@ -1,0 +1,1 @@
+Repositório contendo os exercícios da etapa técnica do processo seletivo GFT START_UNI 2021
