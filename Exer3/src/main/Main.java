@@ -21,7 +21,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         double valorInicial;
         
-       try{
+        try{
             System.out.print("Digite o valor inicial: ");
             valorInicial = sc.nextDouble();
 

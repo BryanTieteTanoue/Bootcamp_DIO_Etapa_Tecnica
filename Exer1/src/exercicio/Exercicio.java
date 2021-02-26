@@ -24,14 +24,14 @@ public class Exercicio {
         try{
             while(somatoria < 300){
                 System.out.print("Digite um número: ");
-                double num = (int)sc.nextDouble();//ler double evita erro ao digitar "números quebrados"
+                double num = sc.nextDouble();//ler double evita erro ao digitar "números quebrados"
                 if(num < 0){
                     System.out.println("Números negativos não são permitidos");
                 } else {
                     somatoria += num;
                 }
             } 
-            System.out.println("O somatório foi: " + somatoria);
+            System.out.printf("O somatório foi: %.2f", somatoria);
         
         }catch(InputMismatchException e) {
             System.out.println("Não digite letras");

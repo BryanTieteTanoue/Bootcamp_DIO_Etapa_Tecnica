@@ -24,7 +24,7 @@ public class Main {
         double lucroComIR = investComIR.calcularLucro(17);
         double lucroSomIR = investSemIR.calcularLucro(17);
         
-        
+        System.out.println("");
         System.out.printf("Investimento com juros: R$ %.2f %n", lucroComIR);
         System.out.printf("Investimento sem juros: R$ %.2f %n", lucroSomIR);
     }
